@@ -21,9 +21,9 @@
  * the font-families you don’t use in your project.
  */
 @import "./theme/font-face/roboto";
-@import "./theme/font-face/source-serif";
-@import "./theme/font-face/mulish";
-@import "./theme/font-face/inter";
+// @import "./theme/font-face/source-serif";
+// @import "./theme/font-face/mulish";
+// @import "./theme/font-face/inter";
 
 
 /* CSS and Sass variables. */
@@ -70,25 +70,25 @@
 // TEI styles for semantic elements and icons.
 @import "./theme/TEI/tei-semantic-extras";
 // TEI styles for showing page breaks.
-@import "./theme/TEI/tei-page-breaks";
+// @import "./theme/TEI/tei-page-breaks";
 // TEI styles for showing paragraph/line numberings.
-@import "./theme/TEI/tei-paragraph-numbering";
+// @import "./theme/TEI/tei-paragraph-numbering";
 // TEI common styles, used by multiple collection components.
 @import "./theme/TEI/tei-common";
 // TEI styles for the collection title page.
-@import "./theme/TEI/tei-title";
+// @import "./theme/TEI/tei-title";
 // TEI styles for the collection foreword page.
-@import "./theme/TEI/tei-foreword";
+// @import "./theme/TEI/tei-foreword";
 // TEI styles for the collection introduction page.
-@import "./theme/TEI/tei-introduction";
+// @import "./theme/TEI/tei-introduction";
 // TEI styles for the collection reading text component.
 @import "./theme/TEI/tei-readingtext";
 // TEI styles for the collection comments component.
-@import "./theme/TEI/tei-comments";
+// @import "./theme/TEI/tei-comments";
 // TEI styles for the collection manuscripts component.
-@import "./theme/TEI/tei-manuscripts";
+// @import "./theme/TEI/tei-manuscripts";
 // TEI styles for the collection variants component.
-@import "./theme/TEI/tei-variants";
+// @import "./theme/TEI/tei-variants";
 
 
 /**
@@ -96,5 +96,5 @@
  * and collection text pages. Projects that don't have collections or
  * tooltips in introduction or text pages can comment these out.
  */
-@import "./theme/common/info-overlay";
-@import "./theme/common/tooltip";
+// @import "./theme/common/info-overlay";
+// @import "./theme/common/tooltip";
