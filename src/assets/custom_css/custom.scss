@@ -188,3 +188,150 @@
   }
 
 */
+
+/* Added custom variables */
+:root {
+  --custom-action-color:          #355982;
+  --custom-action-color-contrast: #fff;
+}
+
+/* Override CSS variables */
+:root {
+  --primary-color:                        #c2d3e7;
+  --primary-color-rgb:                    194, 211, 231;
+  --primary-color-contrast:               #000;
+  --secondary-color:                      #e6e6e6;
+  --main-background-color:                #f2f2f2;
+  --route-loading-progress-bar-color:     rgba(0, 0, 0, 0.2);
+
+  --button-background-color:               var(--custom-action-color);
+  --button-text-color:                     var(--custom-action-color-contrast);
+  --fab-button-primary-background-color:   var(--custom-action-color);
+  --fab-button-primary-icon-color:         var(--custom-action-color-contrast);
+  --outline-button-color:                  var(--custom-action-color);
+
+  --font-stack-tei:                        var(--font-stack-app-base);
+}
+
+ion-app[class][class] {
+  --top-menu-button-filter:                      none;
+
+  --side-menu-hover-color:                       var(--custom-action-color);
+  --side-menu-collection-title-background-color: #cecece;
+}
+
+/* Custom, project specific styles */
+
+page-home {
+  .text-content div.site-presentation.markdown.markdown {
+    max-width: 600px;
+    text-align: left;
+  }
+}
+
+page-text {
+  reading-text {
+    div.base-form {
+      font-size: 1.125em;
+      font-weight: bold;
+      line-height: 1.25;
+      text-align: center;
+    }
+
+    hr {
+      background-color: #000;
+      border: 0;
+      height: 1px;
+      margin: 1em auto;
+      padding: 0;
+      width: 150px;
+    }
+
+    div.proverb {
+      border-bottom: 1px solid #a5a5a5;
+      padding-bottom: 1em;
+      margin-bottom: 1em;
+
+      ul {
+        display: inline;
+        list-style: none;
+        margin: 0;
+        padding: 0;
+
+        li {
+          display: inline;
+
+          &:not(:last-child):after {
+            content: "; ";
+          }
+        }
+      }
+    }
+
+    h3.variant-form {
+      font-size: 1.0625em;
+      font-weight: 600;
+      margin: 1em 0;
+    }
+
+    h4.places,
+    h4.collections {
+      font-size: 1em;
+      font-weight: normal;
+      margin: 1em 0 0 0;
+    }
+  }
+}
+
+page-elastic-search {
+  .info.markdown {
+    /* Search instructions */
+    details {
+      padding: .5em .5em 0;
+
+      ul li {
+        line-height: 1.5;
+      }
+
+      ul li + li {
+        padding-top: 0.75em;
+      }
+    }
+
+    summary {
+      font-weight: bold;
+      margin: -.5em -.5em 0;
+      padding: .5em;
+    }
+
+    details[open] {
+      border-bottom: 1px solid #aaa;
+      padding: .5em;
+
+      summary {
+        border-bottom: 1px solid #aaa;
+        margin-bottom: .5em;
+      }
+    }
+
+    .query_example {
+      background-color: #fdfdfd;
+      border: 1px solid var(--button-background-color);
+      border-radius: 3px;
+      color: var(--button-background-color);
+      font-family: monospace;
+      font-size: 0.889em;
+      padding: 0.125em 0.25em;
+    }
+  }
+}
+
+/* Cookiebannern */
+a.cky-banner-element {
+  cursor: pointer;
+  text-decoration: underline;
+}
+#cky-consent,
+#cky-settings-popup {
+	font-family: var(--font-stack-app-base);
+}

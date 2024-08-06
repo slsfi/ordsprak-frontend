@@ -2,15 +2,14 @@ type Config = { [key: string]: any }
 
 export const config: Config = {
   app: {
-    siteURLOrigin: "https://topelius.sls.fi",
-    projectNameDB: "topelius",
-    projectId: 10,
-    backendBaseURL: "https://testa-vonwright.sls.fi:8000/digitaledition",
+    siteURLOrigin: "https://ordsprak.sls.fi",
+    projectNameDB: "ordsprak",
+    projectId: 5,
+    backendBaseURL: "https://api.sls.fi/digitaledition",
     alternateFacsimileBaseURL: "",
     i18n: {
       languages: [
-        { code: "sv", label: "Svenska", region: "FI" },
-        { code: "fi", label: "Suomi", region: "FI" }
+        { code: "sv", label: "Svenska", region: "FI" }
       ],
       defaultLanguage: "sv",
       multilingualCollectionTableOfContents: false,
@@ -22,12 +21,8 @@ export const config: Config = {
       enabled: true,
       image: {
         sv: {
-          altText: "alt-text",
-          URL: "assets/images/home-page-banner.jpg"
-        },
-        fi: {
-          altText: "alt-teksti",
-          URL: "assets/images/home-page-banner.jpg"
+          altText: "Illustration med två rader av stiliserade citattecken i pastellfärger. Översta raden är gul och grön, nedersta raden orange och blå. Centrerad text på illustrationen: Finlandssvenska ordspråk och talesätt.",
+          URL: "assets/images/open-graph/finlandssvenska_ordsprak_och_talesatt-og.jpg"
         }
       }
     },
@@ -40,76 +35,53 @@ export const config: Config = {
     }
   },
   collections: {
-    addTEIClassNames: true,
-    replaceImageAssetsPaths: true,
-    enableLegacyIDs: true,
+    addTEIClassNames: false,
+    replaceImageAssetsPaths: false,
+    enableLegacyIDs: false,
     enableMathJax: false,
     firstTextItem: {
-      216: "216_20280", 219: "219_19443", 220: "220_20122",
-      218: "218_20230_ch2", 210: "210_20548_ch1", 208: "208_18466_ch4",
-      207: "207_18464_ch1", 214: "214_20240_ch1", 203: "203_20217_ch1",
-      213: "213_18465_ch1", 202: "202_18467_ch1", 199: "199_18284",
-      221: "221_21422", 206: "206_20212_ch1", 201: "201_18471",
-      211: "211_20128", 200: "200_19870", 205: "205_20227_ch1",
-      215: "215_20568", 217: "217_20559_ch1", 204: "204_20322",
-      212: "212_20323", 209: "209_20479"
+      54: "54_6040", 74: "74_7051", 53: "53_6017", 56: "56_6176", 86: "86_7443",
+      85: "85_7432", 73: "73_7010", 70: "70_6905", 62: "62_6470", 64: "64_6570",
+      50: "50_5954", 77: "77_7152", 59: "59_6325", 79: "79_7242", 84: "84_7416",
+      52: "52_5989", 78: "78_7178", 51: "51_5972", 66: "66_6687", 69: "69_6806",
+      87: "87_7622", 71: "71_6957", 75: "75_7075", 63: "63_6503", 81: "81_7304",
+      58: "58_6296", 61: "61_6418", 68: "68_6790", 83: "83_7397", 88: "88_7819",
+      55: "55_6118", 89: "89_8059", 57: "57_6265", 60: "60_6353", 76: "76_7115",
+      67: "67_6771", 82: "82_7383", 65: "65_6630", 72: "72_7000", 80: "80_7251",
+      49: "49_5901"
     },
     frontMatterPages: {
-      cover: true,
-      title: true,
-      foreword: true,
-      introduction: true
+      cover: false,
+      title: false,
+      foreword: false,
+      introduction: false
     },
     highlightSearchMatches: true,
-    inlineIllustrations: [206],
-    mediaCollectionMappings: { 214: 44, 206: 19, 218: 19 },
+    inlineIllustrations: [],
+    mediaCollectionMappings: {},
     order: [
-      [216, 219, 220, 218, 210, 208, 207, 214, 203, 213,
-        202, 199, 221, 206, 201, 211, 200, 205, 215, 217,
-        204, 212, 209]
+      [
+        54, 74, 53, 56, 86,
+        85, 73, 70, 62, 64,
+        50, 77, 59, 79, 84,
+        52, 78, 51, 66, 69,
+        87, 71, 75, 63, 81,
+        58, 61, 68, 83, 88,
+        55, 89, 57, 60, 76,
+        67, 82, 65, 72, 80,
+        49
+      ]
     ]
   },
   ebooks: [
     {
-      title: "Bröd och bot",
-      filename: "norrback-brod-och-bot.epub",
+      title: "Ordspråken – urgamla och internationella",
+      filename: "ekrem-ordspraken-urgamla-och-internationella-2017.pdf",
       externalFileURL: "",
       coverURL: "",
       downloadOptions: [
         {
-          url: "https://www.sls.fi/sv/utgivning/historiska-recept",
-          label: ""
-        }
-      ]
-    },
-    {
-      title: "Marriage Conditions in a Palestinian Village I (epub)",
-      filename: "marriage-conditions-1.epub",
-      externalFileURL: "https://api.sls.fi/digitaledition/granqvist/files/30/epub/30_11672_Marriage_Conditions_1.epub/",
-      coverURL: "",
-      downloadOptions: [
-        {
-          url: "https://api.sls.fi/digitaledition/granqvist/files/30/epub/30_11672_Marriage_Conditions_1.epub/",
-          label: "EPUB"
-        },
-        {
-          url: "https://api.sls.fi/digitaledition/granqvist/files/30/pdf/30_11672_Marriage_Conditions_1.pdf/",
-          label: "PDF"
-        }
-      ]
-    },
-    {
-      title: "Marriage Conditions in a Palestinian Village I (pdf)",
-      filename: "marriage-conditions-1.pdf",
-      externalFileURL: "https://api.sls.fi/digitaledition/granqvist/files/30/pdf/30_11672_Marriage_Conditions_1.pdf/",
-      coverURL: "",
-      downloadOptions: [
-        {
-          url: "https://api.sls.fi/digitaledition/granqvist/files/30/epub/30_11672_Marriage_Conditions_1.epub/",
-          label: "EPUB"
-        },
-        {
-          url: "https://api.sls.fi/digitaledition/granqvist/files/30/pdf/30_11672_Marriage_Conditions_1.pdf/",
+          url: "assets/ebooks/ekrem-ordspraken-urgamla-och-internationella-2017.pdf",
           label: "PDF"
         }
       ]
@@ -117,19 +89,19 @@ export const config: Config = {
   ],
   page: {
     about: {
-      initialPageNode: "01-01"
+      initialPageNode: "01"
     },
     elasticSearch: {
       enableFilters: true,
-      enableSortOptions: true,
-      filterGroupsOpenByDefault: ["Years", "Type", "Genre", "Collection"],
+      enableSortOptions: false,
+      filterGroupsOpenByDefault: [],
       hitsPerPage: 15,
-      indices: ["topelius"],
+      indices: ["ordsprak"],
       openReadingTextWithComments: false,
       textHighlightFragmentSize: 150,
       textHighlightType: "fvh",
       textTitleHighlightType: "fvh",
-      typeFilterGroupOptions: ["est", "com", "var", "inl", "tit", "fore"],
+      typeFilterGroupOptions: ["est"],
       fixedFilters: [
         {
           terms: {
@@ -142,61 +114,8 @@ export const config: Config = {
           }
         }
       ],
-      additionalSourceFields: [],
-      aggregations: {
-        Years: {
-          date_histogram: {
-            field: "orig_date_sort",
-            calendar_interval: "year",
-            format: "yyyy"
-          }
-        },
-        Type: {
-          terms: {
-            field: "text_type",
-            size: 40,
-            order: {_key: "asc"}
-          }
-        },
-        Genre: {
-          terms: {
-            field: "publication_data.genre.keyword",
-            size: 40,
-            order: {_key: "asc"}
-          }
-        },
-        Collection: {
-          terms: {
-            field: "publication_data.collection_name.keyword",
-            size: 40,
-            order: {_key: "asc"}
-          }
-        },
-        LetterSenderName: {
-          terms: {
-            field: "sender_subject_name.keyword",
-            size: 100
-          }
-        },
-        LetterReceiverName: {
-          terms: {
-            field: "receiver_subject_name.keyword",
-            size: 100
-          }
-        },
-        LetterSenderLocation: {
-          terms: {
-            field: "sender_location_name.keyword",
-            size: 50
-          }
-        },
-        LetterReceiverLocation: {
-          terms: {
-            field: "receiver_location_name.keyword",
-            size: 50
-          }
-        }
-      }
+      additionalSourceFields: ["Text"],
+      aggregations: {}
     },
     foreword: {
       showURNButton: true,
@@ -205,16 +124,24 @@ export const config: Config = {
     home: {
       bannerImage: {
         altTexts: {
-          sv: "Porträtt av Zacharias Topelius",
-          fi: "Zacharias Topeliuksen muotokuva"
+          sv: "Illustration med två rader av stiliserade citattecken i pastellfärger. Översta raden är gul och grön, nedersta raden orange och blå."
         },
         intrinsicSize: {
-          height: null,
-          width: null
+          height: 467,
+          width: 1920
         },
-        orientationPortrait: true,
-        alternateSources: [],
-        URL: "assets/images/home-page-banner-portrait.jpg"
+        orientationPortrait: false,
+        alternateSources: [
+          {
+            srcset: "assets/images/ordsprak_1920_467.avif 1920w",
+            type: "image/avif"
+          },
+          {
+            srcset: "assets/images/ordsprak_1920_467.jpg 1920w",
+            type: "image/jpeg"
+          }
+        ],
+        URL: "assets/images/ordsprak_1920_467.jpg"
       },
       portraitOrientationSettings: {
         imagePlacement: {
@@ -224,13 +151,13 @@ export const config: Config = {
         siteTitleOnImageOnSmallScreens: false
       },
       showContentGrid: false,
-      showFooter: true,
+      showFooter: false,
       showSearchbar: false
     },
     index: {
       keywords: {
         maxFetchSize: 500,
-        showFilter: true,
+        showFilter: false,
         publishedStatus: 2
       },
       persons: {
@@ -241,7 +168,7 @@ export const config: Config = {
       },
       places: {
         maxFetchSize: 500,
-        showFilter: true,
+        showFilter: false,
         publishedStatus: 2
       },
       works: {
@@ -265,32 +192,32 @@ export const config: Config = {
       showURNButton: true
     },
     text: {
-      defaultViews: ["readingtext", "comments", "facsimiles"],
-      defaultViewOptions: ["comments"],
-      showTextDownloadButton: true,
-      showURNButton: true,
+      defaultViews: ["readingtext"],
+      defaultViewOptions: [],
+      showTextDownloadButton: false,
+      showURNButton: false,
       showViewOptionsButton: true,
       viewOptions: {
-        comments: true,
-        personInfo: true,
-        placeInfo: true,
-        emendations: true,
-        normalisations: true,
-        workInfo: true,
-        abbreviations: true,
-        paragraphNumbering: true,
-        pageBreakOriginal: true,
-        pageBreakEdition: true
+        comments: false,
+        personInfo: false,
+        placeInfo: false,
+        emendations: false,
+        normalisations: false,
+        workInfo: false,
+        abbreviations: false,
+        paragraphNumbering: false,
+        pageBreakOriginal: false,
+        pageBreakEdition: false
       },
       viewTypes: {
-        showAll: true,
+        showAll: false,
         readingtext: true,
-        comments: true,
-        facsimiles: true,
-        manuscripts: true,
-        variants: true,
-        illustrations: true,
-        legend: true,
+        comments: false,
+        facsimiles: false,
+        manuscripts: false,
+        variants: false,
+        illustrations: false,
+        legend: false,
         metadata: false
       }
     },
@@ -302,8 +229,8 @@ export const config: Config = {
   },
   component: {
     collectionSideMenu: {
-      sortableCollectionsAlphabetical: ["211", "215", "219", "220"],
-      sortableCollectionsChronological: ["215", "219", "220"],
+      sortableCollectionsAlphabetical: [],
+      sortableCollectionsChronological: [],
       sortableCollectionsCategorical: [],
       categoricalSortingPrimaryKey: "",
       categoricalSortingSecondaryKey: ""
@@ -320,7 +247,7 @@ export const config: Config = {
     },
     epub: {
       showTOCButton: true,
-      showURNButton: true,
+      showURNButton: false,
       showViewOptionsButton: true
     },
     facsimiles: {
@@ -333,9 +260,9 @@ export const config: Config = {
         about: true,
         ebooks: true,
         collections: true,
-        mediaCollections: true,
-        indexKeywords: false,
-        indexPersons: true,
+        mediaCollections: false,
+        indexKeywords: true,
+        indexPersons: false,
         indexPlaces: true,
         indexWorks: false
       }
@@ -348,12 +275,12 @@ export const config: Config = {
     topMenu: {
       showAboutButton: true,
       showContentButton: true,
-      showElasticSearchButton: true,
+      showElasticSearchButton: false,
       showURNButton: false,
-      showLanguageButton: true,
+      showLanguageButton: false,
       showSiteLogo: true,
-      siteLogoDefaultImageURL: "assets/images/logo/SLS_logo_full_white_346x112.png",
-      siteLogoMobileImageURL: "assets/images/logo/SLS_logo_symbol_white_112x112.png",
+      siteLogoDefaultImageURL: "assets/images/logo/SLS_logo_full_black_346x112.png",
+      siteLogoMobileImageURL: "assets/images/logo/SLS_logo_symbol_black_112x112.png",
       siteLogoLinkURL: "https://www.sls.fi/",
       siteLogoDimensions: {
         default: {
@@ -410,7 +337,7 @@ export const config: Config = {
     namedEntity: {
       showAliasAndPrevLastName: false,
       showArticleData: false,
-      showCityRegionCountry: false,
+      showCityRegionCountry: true,
       showDescriptionLabel: false,
       showGalleryOccurrences: false,
       showMediaData: false,
