@@ -275,7 +275,7 @@ export const config: Config = {
     topMenu: {
       showAboutButton: true,
       showContentButton: true,
-      showElasticSearchButton: true,
+      showElasticSearchButton: false,
       showURNButton: false,
       showLanguageButton: false,
       showSiteLogo: true,

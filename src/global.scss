@@ -68,13 +68,13 @@
 // TEI core styles. If you only have facsimiles you can comment it out.
 @import "./theme/TEI/tei-core";
 // TEI styles for semantic elements and icons.
-@import "./theme/TEI/tei-semantic-extras";
+// @import "./theme/TEI/tei-semantic-extras";
 // TEI styles for showing page breaks.
 // @import "./theme/TEI/tei-page-breaks";
 // TEI styles for showing paragraph/line numberings.
 // @import "./theme/TEI/tei-paragraph-numbering";
 // TEI common styles, used by multiple collection components.
-@import "./theme/TEI/tei-common";
+// @import "./theme/TEI/tei-common";
 // TEI styles for the collection title page.
 // @import "./theme/TEI/tei-title";
 // TEI styles for the collection foreword page.
@@ -82,7 +82,7 @@
 // TEI styles for the collection introduction page.
 // @import "./theme/TEI/tei-introduction";
 // TEI styles for the collection reading text component.
-@import "./theme/TEI/tei-readingtext";
+// @import "./theme/TEI/tei-readingtext";
 // TEI styles for the collection comments component.
 // @import "./theme/TEI/tei-comments";
 // TEI styles for the collection manuscripts component.

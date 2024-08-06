@@ -1413,7 +1413,7 @@
     <unit id="ReadingText.ReadingText">
       <segment state="initial">
         <source>Lästext</source>
-        <target>Text</target>
+        <target>Ordspråksvarianter</target>
       </segment>
     </unit>
     <unit id="ReadingText.SwedishText">
