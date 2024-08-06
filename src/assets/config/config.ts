@@ -21,17 +21,17 @@ export const config: Config = {
       enabled: true,
       image: {
         sv: {
-          altText: "Illustration med två rader av stiliserade citattecken i pastellfärger. Översta raden är gul och grön, nedersta raden orange och blå.",
-          URL: "assets/images/ordsprak_1920_467.jpg"
+          altText: "Illustration med två rader av stiliserade citattecken i pastellfärger. Översta raden är gul och grön, nedersta raden orange och blå. Centrerad text på illustrationen: Finlandssvenska ordspråk och talesätt.",
+          URL: "assets/images/open-graph/finlandssvenska_ordsprak_och_talesatt-og.jpg"
         }
       }
     },
     prebuild: {
       sitemap: true,
-      staticCollectionMenus: false
+      staticCollectionMenus: true
     },
     ssr: {
-      collectionSideMenu: true
+      collectionSideMenu: false
     }
   },
   collections: {
