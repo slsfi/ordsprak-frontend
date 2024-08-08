@@ -234,6 +234,11 @@ page-home {
     max-width: 600px;
     text-align: left;
   }
+
+  img[src$="#home-sls-logo"] {
+    display: block;
+    margin: 3em auto;
+  }
 }
 
 page-text {
