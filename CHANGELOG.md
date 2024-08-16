@@ -8,9 +8,14 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/), and this
 
 ## [Unreleased]
 
+
+
+## [1.4.4-production.1] – 2024-08-16
+
 ### Changed
 
-- Set up project files, config, custom CSS and translations for production site.
+- Set up project files, config, custom CSS and translations for production site. ([1adb23c](https://github.com/slsfi/ordsprak-frontend/commit/1adb23c6325c774817df5f550937fcdca576f008), [a729a5e](https://github.com/slsfi/ordsprak-frontend/commit/a729a5ec7fa0c0e629cc47644310454e24d8823f), [c1b7484](https://github.com/slsfi/ordsprak-frontend/commit/c1b7484af6843d605db6928e70ff8456f7ce9dde), [7a2ab4d](https://github.com/slsfi/ordsprak-frontend/commit/7a2ab4dc455d92bf9e29ee7db0258c1aac6245b7))
+- Merge release [`v1.4.4`](https://github.com/slsfi/digital-edition-frontend-ng/releases/tag/1.4.4) from upstream, original repository into `production` branch. ([8bd4b64](https://github.com/slsfi/ordsprak-frontend/commit/8bd4b64913dc704bebbf0f2b3c1d481ac0c267c1))
 
 
 
@@ -408,3 +413,5 @@ siteLogoDimensions: {
 [1.0.2]: https://github.com/slsfi/digital-edition-frontend-ng/compare/v1.0.1...v1.0.2
 [1.0.1]: https://github.com/slsfi/digital-edition-frontend-ng/compare/v1.0.0...v1.0.1
 [1.0.0]: https://github.com/slsfi/digital-edition-frontend-ng/releases/tag/v1.0.0
+
+[1.4.4-production.1]: https://github.com/slsfi/ordsprak-frontend/releases/tag/1.4.4-production.1
