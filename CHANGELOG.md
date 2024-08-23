@@ -8,9 +8,13 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/), and this
 
 ## [Unreleased]
 
+
+
+## [1.4.4-production.2] – 2024-08-23
+
 ### Fixed
 
-- Collection first text items in config.
+- Collection first text items in config. ([665e13a](https://github.com/slsfi/ordsprak-frontend/commit/665e13addaa5995205d60f0d03f9a00f8a59ea10))
 
 
 
@@ -418,4 +422,5 @@ siteLogoDimensions: {
 [1.0.1]: https://github.com/slsfi/digital-edition-frontend-ng/compare/v1.0.0...v1.0.1
 [1.0.0]: https://github.com/slsfi/digital-edition-frontend-ng/releases/tag/v1.0.0
 
+[1.4.4-production.2]: https://github.com/slsfi/ordsprak-frontend/compare/1.4.4-production.1...1.4.4-production.2
 [1.4.4-production.1]: https://github.com/slsfi/ordsprak-frontend/releases/tag/1.4.4-production.1
