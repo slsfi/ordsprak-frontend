@@ -8,6 +8,10 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/), and this
 
 ## [Unreleased]
 
+### Fixed
+
+- Collection first text items in config.
+
 
 
 ## [1.4.4-production.1] – 2024-08-16
