@@ -94,14 +94,14 @@ export const config: Config = {
     elasticSearch: {
       enableFilters: true,
       enableSortOptions: false,
-      filterGroupsOpenByDefault: [],
+      filterGroupsOpenByDefault: ["Collection", "Region"],
       hitsPerPage: 15,
       indices: ["ordsprak"],
       openReadingTextWithComments: false,
-      textHighlightFragmentSize: 150,
+      textHighlightFragmentSize: 75,
       textHighlightType: "fvh",
       textTitleHighlightType: "fvh",
-      typeFilterGroupOptions: ["est"],
+      typeFilterGroupOptions: [],
       fixedFilters: [
         {
           terms: {
@@ -114,8 +114,29 @@ export const config: Config = {
           }
         }
       ],
-      additionalSourceFields: ["Text"],
-      aggregations: {}
+      additionalSourceFields: [],
+      aggregations: {
+        Collection: {
+          terms: {
+            field: "publication_data.collection_name.keyword",
+            size: 45,
+            order: {_key: "asc"}
+          }
+        },
+        Region: {
+          terms: {
+            field: "region",
+            size: 30,
+            order: {_key: "asc"}
+          }
+        },
+        Signum: {
+          terms: {
+            field: "signum",
+            size: 160
+          }
+        }
+      }
     },
     foreword: {
       showURNButton: true,
@@ -275,7 +296,7 @@ export const config: Config = {
     topMenu: {
       showAboutButton: true,
       showContentButton: true,
-      showElasticSearchButton: false,
+      showElasticSearchButton: true,
       showURNButton: false,
       showLanguageButton: false,
       showSiteLogo: true,
