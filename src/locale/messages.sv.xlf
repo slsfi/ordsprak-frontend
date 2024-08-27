@@ -471,7 +471,7 @@
     <unit id="ElasticSearch.Collection">
       <segment state="initial">
         <source>Delutgåva</source>
-        <target>Delutgåva</target>
+        <target>Kategori</target>
       </segment>
     </unit>
     <unit id="ElasticSearch.CommentaryTo">
@@ -489,7 +489,7 @@
     <unit id="ElasticSearch.Found">
       <segment state="initial">
         <source>Texter med sökträffar:</source>
-        <target>Texter med sökträffar:</target>
+        <target>Ordspråk med sökträffar:</target>
       </segment>
     </unit>
     <unit id="ElasticSearch.Genre">

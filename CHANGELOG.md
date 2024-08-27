@@ -8,6 +8,10 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/), and this
 
 ## [Unreleased]
 
+### Fixed
+
+- Elasticsearch config for search page.
+
 
 
 ## [1.4.4-production.2] – 2024-08-23
