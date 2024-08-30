@@ -6,16 +6,21 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/), and this
 
 
 
-## [Unreleased]
+## Unreleased
+
+
+
+## [1.5.2-production.1] – 2024-08-30
 
 ### Fixed
 
-- Elasticsearch config for search page.
+- Elasticsearch config for search page. ([01ee2d5](https://github.com/slsfi/ordsprak-frontend/commit/01ee2d5d0d1a0c5a8b60c31bfa5e01c0e408c8e7))
 
 ### Changed
 
-- Home page: enable search form.
-- Elasticsearch page: break lines at newline characters in search results.
+- Home page: enable search form. ([9178315](https://github.com/slsfi/ordsprak-frontend/commit/917831576a51ed0354c0b524d6a77067c9e2a0cd))
+- Elasticsearch page: break lines at newline characters in search results. ([cf245dd](https://github.com/slsfi/ordsprak-frontend/commit/cf245ddae13543ebf25735ec616016294ca1ff8c))
+- Merge release [`v1.5.2`](https://github.com/slsfi/digital-edition-frontend-ng/releases/tag/1.5.2) from upstream, original repository into `production` branch. ([9a1da50](https://github.com/slsfi/ordsprak-frontend/commit/9a1da507706e417f9c24bcf28706d151538f8539))
 
 
 
@@ -496,5 +501,6 @@ siteLogoDimensions: {
 [1.0.1]: https://github.com/slsfi/digital-edition-frontend-ng/compare/v1.0.0...v1.0.1
 [1.0.0]: https://github.com/slsfi/digital-edition-frontend-ng/releases/tag/v1.0.0
 
+[1.5.2-production.1]: https://github.com/slsfi/ordsprak-frontend/compare/1.4.4-production.2...1.5.2-production.1
 [1.4.4-production.2]: https://github.com/slsfi/ordsprak-frontend/compare/1.4.4-production.1...1.4.4-production.2
 [1.4.4-production.1]: https://github.com/slsfi/ordsprak-frontend/releases/tag/1.4.4-production.1
