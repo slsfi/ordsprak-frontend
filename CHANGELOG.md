@@ -8,6 +8,10 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/), and this
 
 ## Unreleased
 
+### Removed
+
+- Superfluous styles from `custom.scss`.
+
 
 
 ## [1.5.2-production.1] – 2024-08-30
