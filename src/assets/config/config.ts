@@ -173,7 +173,7 @@ export const config: Config = {
       },
       showContentGrid: false,
       showFooter: true,
-      showSearchbar: false
+      showSearchbar: true
     },
     index: {
       keywords: {

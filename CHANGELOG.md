@@ -12,22 +12,9 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/), and this
 
 - Elasticsearch config for search page.
 
-
-
-## [1.4.4-production.2] – 2024-08-23
-
-### Fixed
-
-- Collection first text items in config. ([665e13a](https://github.com/slsfi/ordsprak-frontend/commit/665e13addaa5995205d60f0d03f9a00f8a59ea10))
-
-
-
-## [1.4.4-production.1] – 2024-08-16
-
 ### Changed
 
-- Set up project files, config, custom CSS and translations for production site. ([1adb23c](https://github.com/slsfi/ordsprak-frontend/commit/1adb23c6325c774817df5f550937fcdca576f008), [a729a5e](https://github.com/slsfi/ordsprak-frontend/commit/a729a5ec7fa0c0e629cc47644310454e24d8823f), [c1b7484](https://github.com/slsfi/ordsprak-frontend/commit/c1b7484af6843d605db6928e70ff8456f7ce9dde), [7a2ab4d](https://github.com/slsfi/ordsprak-frontend/commit/7a2ab4dc455d92bf9e29ee7db0258c1aac6245b7))
-- Merge release [`v1.4.4`](https://github.com/slsfi/digital-edition-frontend-ng/releases/tag/1.4.4) from upstream, original repository into `production` branch. ([8bd4b64](https://github.com/slsfi/ordsprak-frontend/commit/8bd4b64913dc704bebbf0f2b3c1d481ac0c267c1))
+- Home page: enable search form.
 
 
 
@@ -90,6 +77,23 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/), and this
 
 - `index.html`: deprecated and outdated meta tags. ([2bf9c2e](https://github.com/slsfi/digital-edition-frontend-ng/commit/2bf9c2ee1061eda3c8be9d285d9c216a7a26ba49))
 - `compose.yml`: testa-vonwright.sls.fi from extra hosts. ([5bb6ff8](https://github.com/slsfi/digital-edition-frontend-ng/commit/5bb6ff836fc58fe1aa5545226e1816b44ebe88e8))
+
+
+
+## [1.4.4-production.2] – 2024-08-23
+
+### Fixed
+
+- Collection first text items in config. ([665e13a](https://github.com/slsfi/ordsprak-frontend/commit/665e13addaa5995205d60f0d03f9a00f8a59ea10))
+
+
+
+## [1.4.4-production.1] – 2024-08-16
+
+### Changed
+
+- Set up project files, config, custom CSS and translations for production site. ([1adb23c](https://github.com/slsfi/ordsprak-frontend/commit/1adb23c6325c774817df5f550937fcdca576f008), [a729a5e](https://github.com/slsfi/ordsprak-frontend/commit/a729a5ec7fa0c0e629cc47644310454e24d8823f), [c1b7484](https://github.com/slsfi/ordsprak-frontend/commit/c1b7484af6843d605db6928e70ff8456f7ce9dde), [7a2ab4d](https://github.com/slsfi/ordsprak-frontend/commit/7a2ab4dc455d92bf9e29ee7db0258c1aac6245b7))
+- Merge release [`v1.4.4`](https://github.com/slsfi/digital-edition-frontend-ng/releases/tag/1.4.4) from upstream, original repository into `production` branch. ([8bd4b64](https://github.com/slsfi/ordsprak-frontend/commit/8bd4b64913dc704bebbf0f2b3c1d481ac0c267c1))
 
 
 
