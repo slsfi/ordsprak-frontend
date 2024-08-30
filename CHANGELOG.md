@@ -15,6 +15,7 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/), and this
 ### Changed
 
 - Home page: enable search form.
+- Elasticsearch page: break lines at newline characters in search results.
 
 
 
