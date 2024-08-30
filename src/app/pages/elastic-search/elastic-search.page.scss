@@ -454,6 +454,7 @@ li.hit-item {
     p {
       line-height: 1.5;
       margin: 0;
+      white-space: pre-line;
     }
     p + p {
       margin-top: 0.5em;
