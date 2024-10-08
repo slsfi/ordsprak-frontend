@@ -10,6 +10,27 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/), and this
 
 
 
+## [1.5.3-production.1] – 2024-10-08
+
+### Changed
+
+- Merge release [`v1.5.3`](https://github.com/slsfi/digital-edition-frontend-ng/releases/tag/1.5.3) from upstream, original repository into `production` branch. ([92c6f05](https://github.com/slsfi/ordsprak-frontend/commit/92c6f05f9b68cf178ccfcdb9da4b7db177da20a0))
+
+
+
+## [1.5.3] – 2024-09-26
+
+### Changed
+
+- Deps: update `@angular` to 18.2.6. ([112623d](https://github.com/slsfi/digital-edition-frontend-ng/commit/112623d7935a45c049871c01a14d69cbda839e51))
+- Deps: update `express` to 4.21.0. ([ccbe649](https://github.com/slsfi/digital-edition-frontend-ng/commit/ccbe649304e9d2db74a448e1d13a54cc1be90196))
+- Deps: update `marked` to 14.1.2. ([70e6fb7](https://github.com/slsfi/digital-edition-frontend-ng/commit/70e6fb75c5d87d4a4664c16ac4789bb09b18afd1))
+- Deps (dev): update `@types/node` to 20.16.9. ([1ec69f7](https://github.com/slsfi/digital-edition-frontend-ng/commit/1ec69f7261474461b673d54fc6ea3f7b7c2f3ae4))
+- Deps (dev): update `jasmine-core` to 5.3.0. ([7d72e39](https://github.com/slsfi/digital-edition-frontend-ng/commit/7d72e39287ed5a3af06f87eecf8e76069c49826d))
+- Deps (transitive): update `browser-sync` to 3.0.3 and `serve-static` to 1.16.2. ([04a421d](https://github.com/slsfi/digital-edition-frontend-ng/commit/04a421dad2ac9239921712bed85ac988b68f9bf1))
+
+
+
 ## [1.5.2-production.2] – 2024-08-30
 
 ### Removed
@@ -29,19 +50,6 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/), and this
 - Home page: enable search form. ([9178315](https://github.com/slsfi/ordsprak-frontend/commit/917831576a51ed0354c0b524d6a77067c9e2a0cd))
 - Elasticsearch page: break lines at newline characters in search results. ([cf245dd](https://github.com/slsfi/ordsprak-frontend/commit/cf245ddae13543ebf25735ec616016294ca1ff8c))
 - Merge release [`v1.5.2`](https://github.com/slsfi/digital-edition-frontend-ng/releases/tag/1.5.2) from upstream, original repository into `production` branch. ([9a1da50](https://github.com/slsfi/ordsprak-frontend/commit/9a1da507706e417f9c24bcf28706d151538f8539))
-
-
-
-## [1.5.3] – 2024-09-26
-
-### Changed
-
-- Deps: update `@angular` to 18.2.6. ([112623d](https://github.com/slsfi/digital-edition-frontend-ng/commit/112623d7935a45c049871c01a14d69cbda839e51))
-- Deps: update `express` to 4.21.0. ([ccbe649](https://github.com/slsfi/digital-edition-frontend-ng/commit/ccbe649304e9d2db74a448e1d13a54cc1be90196))
-- Deps: update `marked` to 14.1.2. ([70e6fb7](https://github.com/slsfi/digital-edition-frontend-ng/commit/70e6fb75c5d87d4a4664c16ac4789bb09b18afd1))
-- Deps (dev): update `@types/node` to 20.16.9. ([1ec69f7](https://github.com/slsfi/digital-edition-frontend-ng/commit/1ec69f7261474461b673d54fc6ea3f7b7c2f3ae4))
-- Deps (dev): update `jasmine-core` to 5.3.0. ([7d72e39](https://github.com/slsfi/digital-edition-frontend-ng/commit/7d72e39287ed5a3af06f87eecf8e76069c49826d))
-- Deps (transitive): update `browser-sync` to 3.0.3 and `serve-static` to 1.16.2. ([04a421d](https://github.com/slsfi/digital-edition-frontend-ng/commit/04a421dad2ac9239921712bed85ac988b68f9bf1))
 
 
 
@@ -523,6 +531,7 @@ siteLogoDimensions: {
 [1.0.1]: https://github.com/slsfi/digital-edition-frontend-ng/compare/v1.0.0...v1.0.1
 [1.0.0]: https://github.com/slsfi/digital-edition-frontend-ng/releases/tag/v1.0.0
 
+[1.5.3-production.1]: https://github.com/slsfi/ordsprak-frontend/compare/1.5.2-production.2...1.5.3-production.1
 [1.5.2-production.2]: https://github.com/slsfi/ordsprak-frontend/compare/1.5.2-production.1...1.5.2-production.2
 [1.5.2-production.1]: https://github.com/slsfi/ordsprak-frontend/compare/1.4.4-production.2...1.5.2-production.1
 [1.4.4-production.2]: https://github.com/slsfi/ordsprak-frontend/compare/1.4.4-production.1...1.4.4-production.2
