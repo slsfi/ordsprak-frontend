@@ -10,11 +10,11 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/), and this
 
 
 
-## [1.5.4-production.1] – 2024-12-02
+## [1.5.5-production.1] – 2024-12-30
 
 ### Changed
 
-- Merge release [`v1.5.4`](https://github.com/slsfi/digital-edition-frontend-ng/releases/tag/1.5.3) from upstream, original repository into `production` branch. ([14a672c](https://github.com/slsfi/ordsprak-frontend/commit/14a672c95cbf44aee6519d69cdfb74a0a9660ef4))
+- Merge release [`v1.5.5`](https://github.com/slsfi/digital-edition-frontend-ng/releases/tag/1.5.5) from upstream, original repository into `production` branch. ([289907b](https://github.com/slsfi/ordsprak-frontend/commit/289907bf360384fa28693e11d3840be5766d2a6d))
 
 
 
@@ -34,6 +34,14 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/), and this
 - Deps (dev): update `typescript` to 5.6.3. ([633c344](https://github.com/slsfi/digital-edition-frontend-ng/commit/633c344f921d7a53c6fe456e533984a9542dea75))
 - Deps (transitive): update `nanoid` to 3.3.8. ([cd6287e](https://github.com/slsfi/digital-edition-frontend-ng/commit/cd6287e52b13958e9dde1daa3d462f7e872df378))
 - Deps (transitive): update multiple by recreating `package-lock.json`. ([bac3a84](https://github.com/slsfi/digital-edition-frontend-ng/commit/bac3a84b5827b4dbe0983d5b545cfd14880a71bd))
+
+
+
+## [1.5.4-production.1] – 2024-12-02
+
+### Changed
+
+- Merge release [`v1.5.4`](https://github.com/slsfi/digital-edition-frontend-ng/releases/tag/1.5.4) from upstream, original repository into `production` branch. ([14a672c](https://github.com/slsfi/ordsprak-frontend/commit/14a672c95cbf44aee6519d69cdfb74a0a9660ef4))
 
 
 
@@ -575,6 +583,7 @@ siteLogoDimensions: {
 [1.0.1]: https://github.com/slsfi/digital-edition-frontend-ng/compare/v1.0.0...v1.0.1
 [1.0.0]: https://github.com/slsfi/digital-edition-frontend-ng/releases/tag/v1.0.0
 
+[1.5.5-production.1]: https://github.com/slsfi/ordsprak-frontend/compare/1.5.4-production.1...1.5.5-production.1
 [1.5.4-production.1]: https://github.com/slsfi/ordsprak-frontend/compare/1.5.3-production.1...1.5.4-production.1
 [1.5.3-production.1]: https://github.com/slsfi/ordsprak-frontend/compare/1.5.2-production.2...1.5.3-production.1
 [1.5.2-production.2]: https://github.com/slsfi/ordsprak-frontend/compare/1.5.2-production.1...1.5.2-production.2
