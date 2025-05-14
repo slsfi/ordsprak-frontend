@@ -8,9 +8,14 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/), and this
 
 ## Unreleased
 
+
+
+## [1.6.3-production.1] – 2025-05-14
+
 ### Changed
 
-- Update disallow rules in `robots.txt`.
+- Update disallow rules in `robots.txt`. ([6e7e6fc](https://github.com/slsfi/ordsprak-frontend/commit/6e7e6fca4f782dd91c334a30518d0f1cc81bfd7b))
+- Merge release [`v1.6.3`](https://github.com/slsfi/digital-edition-frontend-ng/releases/tag/1.6.3) from upstream, original repository into `production` branch. ([516d5d5](https://github.com/slsfi/ordsprak-frontend/commit/516d5d52855151f749ed0fade94da5f512422baf))
 
 
 
@@ -712,6 +717,7 @@ siteLogoDimensions: {
 [1.0.1]: https://github.com/slsfi/digital-edition-frontend-ng/compare/v1.0.0...v1.0.1
 [1.0.0]: https://github.com/slsfi/digital-edition-frontend-ng/releases/tag/v1.0.0
 
+[1.6.3-production.1]: https://github.com/slsfi/ordsprak-frontend/compare/1.5.7-production.1...1.6.3-production.1
 [1.5.7-production.1]: https://github.com/slsfi/ordsprak-frontend/compare/1.5.6-production.1...1.5.7-production.1
 [1.5.6-production.1]: https://github.com/slsfi/ordsprak-frontend/compare/1.5.5-production.1...1.5.6-production.1
 [1.5.5-production.1]: https://github.com/slsfi/ordsprak-frontend/compare/1.5.4-production.1...1.5.5-production.1
