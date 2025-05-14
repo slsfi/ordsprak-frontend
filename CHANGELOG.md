@@ -8,13 +8,9 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/), and this
 
 ## Unreleased
 
-
-
-## [1.5.7-production.1] – 2025-03-17
-
 ### Changed
 
-- Merge release [`v1.5.7`](https://github.com/slsfi/digital-edition-frontend-ng/releases/tag/1.5.7) from upstream, original repository into `production` branch. ([4f81ce9](https://github.com/slsfi/ordsprak-frontend/commit/4f81ce9aa82f79bf182ffbe227581fb8a12e8869))
+- Update disallow rules in `robots.txt`.
 
 
 
@@ -87,6 +83,14 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/), and this
 ### Fixed
 
 - Prebuild-scripts: handle 404 responses from API. ([e37f6ad](https://github.com/slsfi/digital-edition-frontend-ng/commit/e37f6ad6f1d28993dda3f4eaced45efecb31ae33))
+
+
+
+## [1.5.7-production.1] – 2025-03-17
+
+### Changed
+
+- Merge release [`v1.5.7`](https://github.com/slsfi/digital-edition-frontend-ng/releases/tag/1.5.7) from upstream, original repository into `production` branch. ([4f81ce9](https://github.com/slsfi/ordsprak-frontend/commit/4f81ce9aa82f79bf182ffbe227581fb8a12e8869))
 
 
 
