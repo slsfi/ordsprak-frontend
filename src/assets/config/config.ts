@@ -292,6 +292,14 @@ export const config: Config = {
     },
     mainSideMenu: {
       items: {
+        about: true,
+        ebooks: true,
+        collections: true,
+        mediaCollections: false,
+        indexKeywords: true,
+        indexPersons: false,
+        indexPlaces: true,
+        indexWorks: false,
         search: true
       },
       defaultExpanded: false

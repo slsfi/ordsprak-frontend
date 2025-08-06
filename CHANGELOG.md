@@ -8,6 +8,10 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/), and this
 
 ## Unreleased
 
+### Fixed
+
+- Enabled main menu items in config.
+
 
 
 ## [2.0.0-production.1] – 2025-08-06
