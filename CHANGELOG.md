@@ -14,7 +14,7 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/), and this
 
 ### Changed
 
-- Update to base version [`2.4.2`](https://github.com/slsfi/digital-edition-frontend-ng/releases/tag/2.4.2) from upstream, original repository. ([00a626c](https://github.com/slsfi/ordsprak-frontend/commit/00a626ce017cb39d47f283ea4504afcee616cc21))
+- Update to base version [`2.4.2`](https://github.com/slsfi/digital-edition-frontend-ng/releases/tag/2.4.2) from upstream, original repository. ([00a626c](https://github.com/slsfi/ordsprak-frontend/commit/00a626ce017cb39d47f283ea4504afcee616cc21), [ec92545](https://github.com/slsfi/ordsprak-frontend/commit/ec9254583f6a1ce3c536fd11a90967192a299890))
 - Update Matomo analytics code snippet. ([9faf291](https://github.com/slsfi/ordsprak-frontend/commit/9faf291752899c7b0abfffd025c40caad19bc7ab))
 
 
