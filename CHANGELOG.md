@@ -8,9 +8,13 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/), and this
 
 ## Unreleased
 
+
+
+## [2.4.2-production.1] – 2025-12-18
+
 ### Changed
 
-- Update to base version [`2.4.2`](https://github.com/slsfi/digital-edition-frontend-ng/releases/tag/2.4.2) from upstream, original repository.
+- Update to base version [`2.4.2`](https://github.com/slsfi/digital-edition-frontend-ng/releases/tag/2.4.2) from upstream, original repository. ([00a626c](https://github.com/slsfi/ordsprak-frontend/commit/00a626ce017cb39d47f283ea4504afcee616cc21))
 - Update Matomo analytics code snippet.
 
 
