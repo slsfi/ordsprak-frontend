@@ -14,6 +14,7 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/), and this
 - Update Matomo analytics code snippet.
 
 
+
 ## [2.4.2] – 2025-12-18
 
 ### Changed
