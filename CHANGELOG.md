@@ -15,7 +15,7 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/), and this
 ### Changed
 
 - Update to base version [`2.4.2`](https://github.com/slsfi/digital-edition-frontend-ng/releases/tag/2.4.2) from upstream, original repository. ([00a626c](https://github.com/slsfi/ordsprak-frontend/commit/00a626ce017cb39d47f283ea4504afcee616cc21))
-- Update Matomo analytics code snippet.
+- Update Matomo analytics code snippet. ([9faf291](https://github.com/slsfi/ordsprak-frontend/commit/9faf291752899c7b0abfffd025c40caad19bc7ab))
 
 
 
@@ -1328,6 +1328,7 @@ siteLogoDimensions: {
 [1.0.1]: https://github.com/slsfi/digital-edition-frontend-ng/compare/v1.0.0...v1.0.1
 [1.0.0]: https://github.com/slsfi/digital-edition-frontend-ng/releases/tag/v1.0.0
 
+[2.4.2-production.1]: https://github.com/slsfi/ordsprak-frontend/compare/2.0.0-production.2...2.4.2-production.1
 [2.0.0-production.2]: https://github.com/slsfi/ordsprak-frontend/compare/2.0.0-production.1...2.0.0-production.2
 [2.0.0-production.1]: https://github.com/slsfi/ordsprak-frontend/compare/1.8.2-production.1...2.0.0-production.1
 [1.8.2-production.1]: https://github.com/slsfi/ordsprak-frontend/compare/1.6.5-production.1...1.8.2-production.1
