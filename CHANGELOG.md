@@ -8,10 +8,14 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/), and this
 
 ## Unreleased
 
+
+
+## [2.4.2-production.2] – 2026-01-13
+
 ### Removed
 
-- Code comment from Matomo code snippet in `index.html`.
-- CookieYes code snippet from `index.html`.
+- Code comment from Matomo code snippet in `index.html`. ([48d7575](https://github.com/slsfi/ordsprak-frontend/commit/48d75757c2cf5fa94a9cad4c2ab6ee8f36aa9041))
+- CookieYes code snippet from `index.html`. ([89cd51b](https://github.com/slsfi/ordsprak-frontend/commit/89cd51b27236e7d66a7779e5ce27bdeb60df647c))
 
 
 
@@ -1333,6 +1337,7 @@ siteLogoDimensions: {
 [1.0.1]: https://github.com/slsfi/digital-edition-frontend-ng/compare/v1.0.0...v1.0.1
 [1.0.0]: https://github.com/slsfi/digital-edition-frontend-ng/releases/tag/v1.0.0
 
+[2.4.2-production.2]: https://github.com/slsfi/ordsprak-frontend/compare/2.4.2-production.1...2.4.2-production.2
 [2.4.2-production.1]: https://github.com/slsfi/ordsprak-frontend/compare/2.0.0-production.2...2.4.2-production.1
 [2.0.0-production.2]: https://github.com/slsfi/ordsprak-frontend/compare/2.0.0-production.1...2.0.0-production.2
 [2.0.0-production.1]: https://github.com/slsfi/ordsprak-frontend/compare/1.8.2-production.1...2.0.0-production.1
