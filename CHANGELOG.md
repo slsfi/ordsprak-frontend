@@ -16,6 +16,10 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/), and this
 
 - Cookie banner CSS from `custom.scss`.
 
+### Fixed
+
+- Badge URLs in `README.md`.
+
 
 
 ## [2.6.1] – 2026-03-13
