@@ -8,18 +8,22 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/), and this
 
 ## Unreleased
 
+
+
+## [2.6.1-production.1] – 2026-03-13
+
 ### Changed
 
-- Update to base version [`2.6.1`](https://github.com/slsfi/digital-edition-frontend-ng/releases/tag/2.6.1) from upstream, original repository.
-- Enable feature based routes and separate cookie policy page in config.
-
-### Removed
-
-- Cookie banner CSS from `custom.scss`.
+- Update to base version [`2.6.1`](https://github.com/slsfi/digital-edition-frontend-ng/releases/tag/2.6.1) from upstream, original repository. ([1d91c7e](https://github.com/slsfi/ordsprak-frontend/commit/1d91c7eb3d54e3c9859312264bb717682c389528))
+- Enable feature based routes and separate cookie policy page in config. ([734abd7](https://github.com/slsfi/ordsprak-frontend/commit/734abd7d6a1ad00c0a1be8d19ad1c70c4f9b5ca4))
 
 ### Fixed
 
-- Badge URLs in `README.md`.
+- Badge URLs in `README.md`. ([24e7cbd](https://github.com/slsfi/ordsprak-frontend/commit/24e7cbd6724b1205a1856a4b48d54b21da066a6b))
+
+### Removed
+
+- Cookie banner CSS from `custom.scss`. ([b77e3a9](https://github.com/slsfi/ordsprak-frontend/commit/b77e3a97511c8dbca57c2b9769c086a25a39a599))
 
 
 
@@ -1513,6 +1517,7 @@ siteLogoDimensions: {
 [1.0.1]: https://github.com/slsfi/digital-edition-frontend-ng/compare/v1.0.0...v1.0.1
 [1.0.0]: https://github.com/slsfi/digital-edition-frontend-ng/releases/tag/v1.0.0
 
+[2.6.1-production.1]: https://github.com/slsfi/ordsprak-frontend/compare/2.4.6-production.1...2.6.1-production.1
 [2.4.6-production.1]: https://github.com/slsfi/ordsprak-frontend/compare/2.4.2-production.2...2.4.6-production.1
 [2.4.2-production.2]: https://github.com/slsfi/ordsprak-frontend/compare/2.4.2-production.1...2.4.2-production.2
 [2.4.2-production.1]: https://github.com/slsfi/ordsprak-frontend/compare/2.0.0-production.2...2.4.2-production.1
