@@ -8,6 +8,10 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/), and this
 
 ## Unreleased
 
+
+
+## [2.6.3-production.1] – 2026-03-30
+
 ### Changed
 
 - Update to base version [`2.6.3`](https://github.com/slsfi/digital-edition-frontend-ng/releases/tag/2.6.3) from upstream, original repository. ([9726e51](https://github.com/slsfi/ordsprak-frontend/commit/9726e51afa32d592b7c5a7eefb0f77d5777d0721))
