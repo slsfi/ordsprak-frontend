@@ -290,15 +290,8 @@ ion-app[class][class] {
 /* Custom, project specific styles */
 
 page-home {
-  .text-content div.site-presentation.markdown.markdown {
-    max-width: 600px;
-    text-align: left;
-  }
-
-  img[src$="#home-sls-logo"] {
-    display: block;
-    margin: 3em auto;
-  }
+  --banner-title-background-color: var(--main-background-color);
+  --banner-title-opacity: 0.8;
 }
 
 page-text {
