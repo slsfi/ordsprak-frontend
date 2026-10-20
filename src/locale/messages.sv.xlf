@@ -409,7 +409,8 @@
       </notes>
       <segment state="initial">
         <source/>
-        <target/>
+        <target>&lt;p&gt;Välkommen att läsa Finlandssvenska ordspråk och talesätt!&lt;/p&gt;
+          &lt;p&gt;Välj en kategori eller sök enligt &lt;a href=&quot;index/places&quot;&gt;orter&lt;/a&gt; eller &lt;a href=&quot;index/keywords&quot;&gt;ämnesord&lt;/a&gt; för att hitta ordspråk och talesätt.&lt;/p&gt;</target>
       </segment>
     </unit>
     <unit id="DateHistogram.Clear">
