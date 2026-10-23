@@ -8,10 +8,14 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/), and this
 
 ## Unreleased
 
+
+
+## [4.1.0-production.1] – 2026-10-23
+
 ### Changed
 
-- Update to base version [`4.1.0`](https://github.com/slsfi/digital-edition-frontend-ng/releases/tag/4.1.0) from upstream, original repository.
-- Enable static, localized collection cover metadata.
+- Update to base version [`4.1.0`](https://github.com/slsfi/digital-edition-frontend-ng/releases/tag/4.1.0) from upstream, original repository. ([4019e81](https://github.com/slsfi/ordsprak-frontend/commit/4019e8173b724a18089b38b2ca6d0f5a67830c99))
+- Enable static, localized collection cover metadata. ([92cbae4](https://github.com/slsfi/ordsprak-frontend/commit/92cbae4b4348400b6b28b07cf7fe84c1fecd7697))
 
 
 
@@ -2031,6 +2035,7 @@ siteLogoDimensions: {
 [1.0.1]: https://github.com/slsfi/digital-edition-frontend-ng/compare/v1.0.0...v1.0.1
 [1.0.0]: https://github.com/slsfi/digital-edition-frontend-ng/releases/tag/v1.0.0
 
+[4.1.0-production.1]: https://github.com/slsfi/ordsprak-frontend/compare/4.0.0-production.1...4.1.0-production.1
 [4.0.0-production.1]: https://github.com/slsfi/ordsprak-frontend/compare/3.1.1-production.1...4.0.0-production.1
 [3.1.1-production.1]: https://github.com/slsfi/ordsprak-frontend/compare/3.0.1-production.1...3.1.1-production.1
 [3.0.1-production.1]: https://github.com/slsfi/ordsprak-frontend/compare/2.7.9-production.1...3.0.1-production.1
